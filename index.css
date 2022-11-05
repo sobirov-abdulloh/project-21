@@ -1,0 +1,63 @@
+aside{
+    display: flex;
+    margin:100px 300px;
+}
+aside .left,.right{
+    display: flex;
+    flex-direction: column;
+}
+aside .left,.right{
+    width: 400px;
+    padding: 20px;
+}
+aside .left{
+   background-color: white;
+}
+aside .left input{
+    margin: 15px;
+    outline: none;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding:0 20px;
+}
+aside h1{
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.left{
+    border: 1px solid rgb(235, 230, 230);
+}
+.left button{
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 1px solid rgb(249, 244, 244);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right button{
+    width: 350px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+}
+.right .btn1{
+    background-color: rgb(12, 12, 72);
+}
+.right .btn2{
+    background-color:rgb(31, 234, 234);
+}
+.right .btn3{
+    background-color:rgb(255, 64, 0);
+}
+.right{
+    background-image: url("https://st.depositphotos.com/1897095/1664/i/600/depositphotos_16641927-stock-photo-multicolored-background.jpg");
+}
